@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Row } from 'react-bootstrap';
 import Card from './card';
 import img from './images/pic.jpg'
 
@@ -39,6 +40,10 @@ class Cardlist extends Component{
             ]
             return(
                 <div>
+                <br/>
+                <Row style={{paddingLeft:'10px'}}>
+          
+                
                         {cards.map(function(card, index){
                             return<Card 
                                 image={card.image}
@@ -47,7 +52,7 @@ class Cardlist extends Component{
 
                             />
                         })}
-
+                </Row>   
                 </div>
             );
         }
