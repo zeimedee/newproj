@@ -41,7 +41,7 @@ class Navb extends Component {
                         <NavItem><Link to={'/cardlist'}>Shop</Link></NavItem>
                         <NavItem>Search &nbsp; <FontAwesome name='search' /></NavItem>
                         <NavItem onClick={this.handleShow}>LOGIN &nbsp;  <FontAwesome name='sign-in' /></NavItem>
-                            
+        
                     </Nav>
                 </Navbar>
 
