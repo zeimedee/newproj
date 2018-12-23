@@ -16,7 +16,7 @@ class Navb extends Component {
         }
     }
 
-    handleClose =() => {
+    handleClose=()=> {
         this.setState({ show: false });
       }
     
